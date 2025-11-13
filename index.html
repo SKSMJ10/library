@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Library</title>
+</head>
+
+<body>
+    <header>
+        <h3>LIBRARY</h3>
+        <button class="addBook">Add Book</button>
+    </header>
+
+    <dialog class="book-form">
+        <form action="" method="dialog">
+            <h1 class = 'form-title'>NEW ENTRY</h1>
+            <div class="new-book">
+                <label>
+                    Title :
+                    <input type="text" id='book-title' name='title'>
+                </label>
+                <label>
+                    Author :
+                    <input type="text" id="author" name="author">
+                </label>
+                <label>
+                    Pages :
+                    <input type="number" id='pages-count' name='count'>
+                </label>
+                <label>
+                    Read
+                    <input type="checkbox" name="status" id="read-status">
+                </label>
+
+                <button class = "submit-book" type="submit">Add</button>
+            </div>
+        </form>
+    </dialog>
+
+    <main id='book-grid'>
+    </main>
+</body>
+</html>
