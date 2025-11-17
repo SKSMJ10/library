@@ -15,28 +15,28 @@
         <button class="addBook">Add Book</button>
     </header>
 
-    <dialog class="book-form">
-        <form action="" method="dialog">
+    <dialog class="dialog-form">
+        <form action="" method="dialog" name="book-form">
             <h1 class = 'form-title'>NEW ENTRY</h1>
             <div class="new-book">
                 <label>
                     Title :
-                    <input type="text" id='book-title' name='title'>
+                    <input type="text" id='book-title' name='title' required>
                 </label>
                 <label>
                     Author :
-                    <input type="text" id="author" name="author">
+                    <input type="text" id="author" name="author" required>
                 </label>
                 <label>
                     Pages :
-                    <input type="number" id='pages-count' name='count'>
+                    <input type="number" id='pages-count' name='count' required>
                 </label>
                 <label>
                     Read
                     <input type="checkbox" name="status" id="read-status">
                 </label>
 
-                <button class = "submit-book" type="submit">Add</button>
+                <button class = "submit-book" type="button">Add</button>
             </div>
         </form>
     </dialog>
