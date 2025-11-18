@@ -77,6 +77,17 @@ button {
     background-color: rgb(86, 216, 86);
 }
 
+.status-not {
+    background-color: inherit;
+    color:rgb(58, 115, 139);
+    border: 2px solid rgb(58, 115, 139);
+}
+
+.status-not:hover {
+    background-color: rgb(66, 133, 162);
+    color: whitesmoke;
+}
+
 .status:hover {
     background-color: rgb(79, 189, 79);
 }
