@@ -48,16 +48,21 @@ function render(element) {
 
   remove.addEventListener("click", () => {
     const toRemove = document.querySelector(`[data-id="${element.id}"]`);
-    const bookIndex = library.findIndex(item => item.id === element.id);
+    const bookIndex = library.findIndex((item) => item.id === element.id);
     library.splice(bookIndex, 1);
     toRemove.remove();
   });
-  
-  read.addEventListener('click', () => {
-    if (read.textContent == 'Finished') {
-      read.classList.toggle('status-not')
+
+  read.addEventListener("click", () => {
+    element.read = !element.read;
+    if (element.read) {
+      read.textContent = "Finished";
+      read.classList.replace("status-not", "status");
+    } else {
+      read.textContent = "Not Finished";
+      read.classList.replace("status", "status-not");
     }
-  })
+  });
   bookGrid.appendChild(book);
 }
 

@@ -49,6 +49,11 @@ main {
     display: flex;
     gap: 1em;
 }
+
+.interact {
+    height: 2.2em;
+}
+
 button {
     padding: 0.5em 1em;
     border: none;
@@ -78,6 +83,7 @@ button {
 }
 
 .status-not {
+    box-sizing: content-box;
     background-color: inherit;
     color:rgb(58, 115, 139);
     border: 2px solid rgb(58, 115, 139);
@@ -116,4 +122,15 @@ input:not(#read-status) {
 
 .new-book > label:nth-of-type(4) {
     text-align: center;
+}
+
+.dialog-form {
+    border-radius: 1.5em;
+    border-style: none;
+    box-shadow: 2px 2px 8px grey;
+    padding: 1em 2em;
+}
+
+#read-status {
+    height: 1.2em;
 }
