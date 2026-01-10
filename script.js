@@ -1,17 +1,21 @@
 let library = [];
 
-function Book(title, author, pages, read = false) {
-  this.title = title;
-  this.author = author;
-  this.pages = pages;
-  this.read = read;
-  this.info = () => {
+class Book {
+  constructor(title, author, pages, read = false) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
+    this.read = read;
+    this.id = crypto.randomUUID();
+  }
+
+  info() {
     return `${this.title}, ${this.author}, ${this.pages}, ${
       this.read ? "read" : "not read yet"
     }`;
-  };
-  this.id = crypto.randomUUID();
+  }
 }
+
 
 const bookGrid = document.getElementById("book-grid");
 

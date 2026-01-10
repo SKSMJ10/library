@@ -1,0 +1,35 @@
+[33mcommit 2221bc16a4709941698924d4a9878ee54bc3bbcc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Sonu Singh <110046349+SKSMJ10@users.noreply.github.com>
+Date:   Tue Nov 18 15:09:44 2025 +0000
+
+    added read function and cleaned up some things
+
+[33mcommit a1d8683417b6ac1bb9ce84f8114ca8a5b6a34d2d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sonu Singh <110046349+SKSMJ10@users.noreply.github.com>
+Date:   Tue Nov 18 10:49:40 2025 +0000
+
+    cleaned up addbook function and remove function
+
+[33mcommit 797e2b3c890c5ef5e59d241433a7918a6fc9d621[m
+Author: SonuSingh <sonu30032004@gmail.com>
+Date:   Mon Nov 17 14:09:37 2025 +0000
+
+    updates the style sheet
+
+[33mcommit 077b2db391bf1f207b4a3fbb5be47c81b2ebf63d[m
+Author: SonuSingh <sonu30032004@gmail.com>
+Date:   Mon Nov 17 13:55:38 2025 +0000
+
+    added add book feature
+
+[33mcommit 5f36771f912887a21b704c88c7ddce3e38b539ff[m
+Author: Sonu Singh <110046349+SKSMJ10@users.noreply.github.com>
+Date:   Thu Nov 13 14:33:03 2025 +0000
+
+    adding starting files
+
+[33mcommit ffe30a742c3bdfd940dde2504e631d1b8478e267[m
+Author: SonuSingh <110046349+SKSMJ10@users.noreply.github.com>
+Date:   Mon Nov 3 18:18:38 2025 +0530
+
+    Initial commit
